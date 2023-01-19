@@ -1,0 +1,27 @@
+<link href="../assets/css/header.css" rel="stylesheet">
+
+<div class="headerContainer">
+   <div class="logo">
+     <h1>&lt;/&gt;</h1>
+     <h2>
+      <a href="/">Issue Tracker</a>
+     </h2>
+   </div>
+  <div class="login-section">
+   <ul>
+      <%if(locals.user){%>
+       <li> &nbsp; &nbsp;<%=user.name%></li>
+       <li>
+         <a href="/users/sign-out">Sign Out</a>
+       </li>
+      <%}else{%>
+       <li>
+           <a href="/users/signin">Sign In</a>
+       </li>
+       <li>
+           <a href="/users/signin">Sign Up</a>
+       </li>      
+       <%}%>
+    </ul>
+   </div>
+</div>

@@ -1,0 +1,55 @@
+.main-container{
+    display: flex;
+    flex-direction: row;
+}
+
+ /* ******************* sign in section ********************** */
+.Signin-section{
+    position: relative;
+    top:100px;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.Signin-section h4{
+  text-align: center;
+}
+.input{
+    width: 50%;
+    height: 40px;
+    margin: 40px;
+    margin-left: 200px;
+    display: block; 
+    border-radius: 10px;
+}
+
+input[type=submit]{
+    margin-left: 50px;
+    width: 100px;
+    height: 40px;
+    background-color: crimson;
+    border-radius: 10px;
+    font-weight: 750;
+}
+
+
+ /* ******************* sign up section ********************** */
+
+.Signup-section{
+    position: relative;
+    top:100px;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.Signup-section h4{
+    text-align: center;
+}
+

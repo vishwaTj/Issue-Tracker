@@ -1,0 +1,208 @@
+body h2{
+    text-align: center;
+}
+
+ /* ******************* Project body section ******************** */
+#project-body{
+    width: 400px;
+    height: 250px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    box-shadow: 0 0 5px 5px grey;
+    position: relative;
+    left: 520px;
+    top: 9px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+#project-body h4{
+    margin-left: 20px;
+    margin-top: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#project-body h4 span{
+    margin-left: 9px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+    font-weight: 200;
+}
+
+/* ************************ issue form ****************** */
+
+.project-button{
+    position: absolute;
+    left: 1300px;
+    top: 80px;
+}
+
+.input-values{
+    display: block;
+    position: relative;
+}
+
+.input-container{
+    position:absolute;
+    background-color: gray;
+    left: 420px;
+    top: 80px;
+    height:400px;
+    width:600px;
+    margin-top: 10px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    border-radius: 10px;
+    box-shadow: 10px 5px 5px grey;
+    transition: 1.5s;
+    z-index: 1;
+}
+
+.close-form{
+    position: relative;
+    top: 0px;
+    left: 550px;
+    right:2px;
+    width: 50px;
+    height:50px;
+    border: none;
+    background-color: inherit;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+    transition: 1.5s;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.section{
+    margin-bottom: 20px;
+}
+
+#input-block{
+    margin-top: 30px;
+}
+
+.labels{
+    margin-left: 50px;
+    font-size:x-large;
+}
+
+#desc-div{
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+}
+
+.input-box{
+    margin-left: 25px;
+    height: 40px;
+    width: 300px;
+}
+
+#form-box{
+    position: relative;
+    top:-40px;
+    width: 100%;
+}
+
+#label{
+     margin-left: 100px;
+}
+
+.desc-input{
+    margin-left: 30px;
+    height: 100px;
+}
+
+input[type=submit]{
+    position: relative;
+    left: 260px;
+}
+
+/* ********************* filter section ************************ */
+
+#filter-secion{
+    margin-top: 40px;
+    margin-left: 550px;
+}
+
+#filter-all a{
+    color: aliceblue;
+    text-decoration: none;
+}
+.filter-block{
+    position: fixed;
+    top: 460px;
+    left: 460px;
+    border: 1px solid black;
+    width: 500px;
+    background-color: darkgrey;
+    box-shadow: 10px 5px 5px black;
+    border-radius: 10px;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    
+}
+
+.close-filter{
+    position: relative;
+    top: 4px;
+    left: 470px;
+    background-color: inherit;
+    border: none;
+}
+
+.filter-labels{
+    margin-left: 30px;
+    font-size:x-large;
+}
+
+.filter-submit{
+    margin-bottom: 4px;
+    margin-left: -10px;
+}
+#filter-all{
+
+}
+
+/* ****************** Issues section *********************** */
+.issues-section{
+    
+}
+
+.issues-section li{
+    list-style: none;
+}
+
+.Issue-box{
+    position: relative;
+    left: 435px;
+    top:40px;
+    width: 500px;
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+
+.Issue-items h4{
+    margin-top: 9px;
+    margin-left: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: small;
+}
+
+.Issue-items span{
+    font-weight: 100;
+    font-family: 'Chivo Mono', monospace;
+    font-size: small;
+}
