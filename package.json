@@ -15,8 +15,9 @@
   "description": "Issue tracker using Nodejs,express and mongo DB",
   "main": "index.js",
   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "npm install"
   },
   "author": "",
   "license": "ISC"
